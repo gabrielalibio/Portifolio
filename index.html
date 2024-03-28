@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="https://www.iconarchive.com/download/i2969/ariil/alphabet/Letter-G.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio for Gabriela Líbio</title>
+    <script type="text/javascript">
+        function primeiraFuncao(value) {
+            alert("Olá, seja muito bem-vindo(a) ao meu Portifólio!");
+        }
+    </script>
+    <style>
+        body {
+            background-color: #b7a656;
+            padding: 0;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #492a18;
+            margin-top: 25px;
+            margin-bottom: 45px;
+            font-size: 50px;
+            font-family: f1;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+
+        button {
+            margin-left: 700px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: #918234;
+            display: flex;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 520px;
+            border-radius: 65px;
+            box-shadow: 5px 10px 15px olive;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 30px;
+            margin-top: 60px;
+            font-family: f2;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: -30px;
+            font-family: f2;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-left: 50px;
+            margin-right: 50px;
+            font-size: 25px;
+            margin-bottom: 55px;
+            font-family: f4;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 25px;
+            margin-bottom: 30px;
+            font-family: f3;
+            background-color: #918234;
+            border-radius: 7px;
+            box-shadow: 5px 10px 15px olive;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .logo {
+            width: 250px;
+            height: 250px;
+        }
+
+        .link {
+            margin: 25px;
+            margin-left: 390px;
+            margin-top: 60px;
+        }
+
+        a {
+            color: black;
+            font-size: 35px;
+            margin: 35px;
+        }
+
+        .div {
+            color: #200000;
+            margin-left: 105px;
+            font-size: 80px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        .port {
+            color: black;
+            margin-left: 105px;
+            font-size: 50px;
+            margin-top: 45px;
+        }
+
+        input {
+            width: 150px;
+            height: 50px;
+            font-size: 17px;
+            color: #000000;
+            background-color: #afafaf;
+            border-radius: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 600px;
+            margin-top: -10px;
+            margin-bottom: 45px;
+            box-shadow: 5px 10px 15px saddlebrown;
+        }
+
+        ol {
+            margin-left: 580px;
+            font-size: 25px;
+            margin-bottom: 65px;
+            font-family: f4;
+        }
+
+        @font-face {
+            font-family: f1;
+            src: url(fontes/BOOMSTER.otf);
+        }
+
+        @font-face {
+            font-family: f2;
+            src: url(fontes/The\ Scary\ Movie.ttf);
+        }
+
+        @font-face {
+            font-family: f3;
+            src: url(fontes/hfuniversity/HFUniversity.ttf);
+        }
+
+        @font-face {
+            font-family: f4;
+            src: url(fontes/lt_soul/LTSoul-Bold.otf);
+        }
+
+        .rotate-vert-center {
+            animation: rotate-vert-center 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+        }
+
+        @keyframes rotate-vert-center {
+            0% {
+                transform: rotateY(0);
+            }
+
+            100% {
+                transform: rotateY(360deg);
+            }
+        }
+
+        @keyframes example {
+            from {
+                margin-left: 900px;
+            }
+
+            to {
+                margin-left: 5px;
+            }
+        }
+
+        .scale-up-ver-center {
+            animation: scale-up-ver-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+        }
+
+        @keyframes scale-up-ver-center {
+            0% {
+                transform: scaleY(0.4);
+            }
+
+            100% {
+                transform: scaleY(1);
+            }
+        }
+
+        .text-focus-in {
+            animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+
+        @keyframes text-focus-in {
+            0% {
+                filter: blur(12px);
+                opacity: 0;
+            }
+
+            100% {
+                filter: blur(0px);
+                opacity: 1;
+            }
+        }
+
+        .tracking-in-expand-fwd {
+            -webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand-fwd 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        }
+
+        @-webkit-keyframes tracking-in-expand-fwd {
+            0% {
+                letter-spacing: -0.5em;
+                -webkit-transform: translateZ(-700px);
+                transform: translateZ(-700px);
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.6;
+            }
+
+            100% {
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes tracking-in-expand-fwd {
+            0% {
+                letter-spacing: -0.5em;
+                -webkit-transform: translateZ(-700px);
+                transform: translateZ(-700px);
+                opacity: 0;
+            }
+
+            40% {
+                opacity: 0.6;
+            }
+
+            100% {
+                -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+                opacity: 1;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                background-color: #b7a656;
+                padding: 0;
+                margin: 0;
+            }
+
+            h1 {
+                text-align: center;
+                width: 50px;
+                height: 50px;
+                margin-left: 125px;
+                margin-bottom: 90px;
+            }
+
+            header {
+                text-align: center;
+            }
+
+            img {
+                width: 200px;
+                height: 200px;
+                margin-top: 40px;
+                margin-left: 95px;
+            }
+
+            input {
+                margin-left: 125px;
+                width: 150px;
+                height: 90px;
+                font-size: 20px;
+            }
+
+            .div {
+                width: 100px;
+                height: 100px;
+                font-size: 80px;
+                margin-top: 80px;
+                margin-left: 45px;
+            }
+
+            .link {
+                font-size: 20px;
+                margin-left: -15px;
+                margin-top: 50px;
+                margin-bottom: 60px;
+            }
+
+            ol {
+                margin-left: 70px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+
+            <p class="div">GL</p>
+
+            <div class="link">
+                <a href="https://github.com/gabrielalibio">GitHub</a>
+                <a href="https://www.linkedin.com/in/gabriela-l%C3%ADbio-g26l11p07/">Linkedin</a>
+                <a href="projetos.html">Projetos</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <img src="https://raw.githubusercontent.com/gabrielalibio/pagpessoal-gabii/main/IMG_20231111_141923_296.webp"
+        class="scale-up-ver-center">
+
+    <h1 class="tracking-in-expand-fwd">Gabriela Líbio</h1>
+
+    <section>
+        <input type="button" value="Bem-Vindo(a)" onclick="primeiraFuncao()" class="rotate-vert-center">
+    </section>
+
+    <h2><i><u>Um pouco sobre Mim:</u></i></h2>
+
+    <p class="text-focus-in">Muito prazer, meu nome é Gabriela Líbio. Acho que falar um pouco sobre si mesmo é meio
+        difícil, mas pra mim, falar sobre mim
+        mesma não é tão difícil
+        assim. Eu me considero uma pessoa calma, tranquila e responsável, acho que consigo
+        trabalhar bem em equipe e sobre pressão. Sou bem aberta para todos os assuntos. Quando o curso de Programação
+        Web começou eu
+        não sabia nada sobre programação, o básico do básico. Conforme o curso foi
+        passando, eu fui aprendendo sobre o assunto e vendo em prática com todos os projetos que já fiz até hoje. Fico muito feliz em ver a minha
+        evolução. A minha primeira opção de trabalho não seria trabalhar com programação, mas depois de conhecer e me
+        aprofundar no assunto gostaria de trabalhar com isso futuramente.
+    </p>
+
+    <h2><u>Minhas Habilidades:</u></h2>
+
+    <ol>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>JavaScript</li>
+        <li>Lógica de Programação</li>
+    </ol>
+
+</body>
+
+<footer>Developed by <u>Gabriela Líbio</u> | ProgWeb | Mar2024 | Turma C | &reg;</footer>
+
+</html>
